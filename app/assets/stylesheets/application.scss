@@ -1,1 +1,39 @@
 @import "bootstrap/scss/bootstrap";
+
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$gray: rgb(218, 214, 214);
+$light-gray: rgb(228, 227, 227);
+$blue: #337AB7;
+$deepblue: rgb(3, 98, 182);
+$lightyellow: #FFFFE1;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.details {
+  background-color: $light-gray;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  font-style: italic;
+  border: solid 0.5px $gray;
+}
+
+.details p {
+  padding: 10px;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  padding:  7px;
+}
